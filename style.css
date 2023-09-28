@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background:#2d70a7 ;
+    height : 10vh !important;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.a-tag a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Gilroy';
+    margin-left: 4vw;
+}
+#search{
+    padding: 0.3vw 5vw;
+    margin-right: 1vw;
+    border-radius: 5px;
+    border: none;
+}
+#inp{
+    background: #cac8c8;
+    padding: 0.3vw 1vw;
+    margin-right: 10vw;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#text{
+    background-image: url('./image/pexels-photo-1861785.webp');
+    background-size: cover;
+    background-repeat: none;
+    height: calc(100vh - 10vh);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.text1 , .text2 , .text3 , .text4{
+    font-style: oblique;
+    margin-bottom: 2vh;
+} 
+.text1{
+    font-size:  3vw;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.text2{
+    font-size: 5vw ;
+    color: rgb(255, 255, 255);
+}
+.text3{
+    font-size: 2vw;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.text4{
+    padding: 0.4vw 1.4vw;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 5rem;
+}
+
+/* Container */
+
+.container{
+    background-color: #cac8c8;
+    padding: 5vh 2vw 2vh 2vw;;
+}
+#container-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+.desc1{
+    font-family: sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+#img{
+    width: 30vw;
+    height: 80vh;
+    margin-left: 5vw;
+}
+.para1{
+    font-size: 1.5rem;
+}
+
+.acc{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.delux{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#room1 img{
+    height: 52vh;
+    width: 30vw;
+}
+.delux1 , .delux2 , .delux3{
+    margin-left: 10vw;
+}
+.delux1 h4, .delux2 h4, .delux3  h4{
+    margin-left: 2vw;
+}
+#room2 img{
+    height: 52vh;
+    width: 30vw;
+}
+
+#room3 img{
+    height: 52vh;
+    width: 30vw;
+}
+
+
+/* footer */
+
+#footer{
+    background:#b7b6b3 ;   
+    height: 45vh;
+    width: 100%;
+    padding-top: 6vh;
+}
+.hall{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+}
+.Reservation{
+    margin-bottom: 2vh;
+
+}
